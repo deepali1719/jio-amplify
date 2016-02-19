@@ -1,0 +1,11 @@
+.padding_zero{
+	padding:0px;
+}
+.margin_zero{
+	margin:0px
+}
+
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	background:#f7f7f7;
+}
