@@ -1,12 +1,180 @@
-<% include includes/site-header.html%>
-<body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>My Account</title>
 
-<% include includes/my_account.html%>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-   
-</body>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-<% include includes/site-footer.html %>
-</html>  
+     <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+<div class="header_wrapper">
+<div class="inner_container">
+    <div class="col-lg-5 hidden-md hidden-sm hidden-xs"></div>
+    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 logo text-center"><img src="images/logo.png" alt=""></div>
+    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 right_login pull-right">      
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"  >
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav pull-right">
+                    <li><a href="#">Points: 96</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="images/user.png" alt="">Gill <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="my_account.html">My account</a></li>
+                        <li><a href="my_activity.html">My activity</a></li>
+                      </ul>
+                    </li>
+
+                     <li><a href="#"><img src="images/logout.png" alt=""></a></li>
+                  </ul>
+                 
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+    </div>
+    <div class="clearfix"></div>
+</div><!-- inner_container -->
+</div><!-- header_wrapper -->
+
+<div id="account_wrapper" class="form_style">
+	<div class="container_wrapper">
+	<div class="inner_container row row-centered ">
+	    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+	        <h3>My Account</h3>
+	        <form class="navbar-form" role="search">
+            <div class="col-lg-8 col-md-8 col-xs-12 padding_zero">
+                <input type="text" class="form-control pull-left" placeholder="Gill">
+                <input type="text" class="form-control pull-left" placeholder="Femandes">
+                <input type="text" class="form-control pull-left" placeholder="gill.femandes">
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-xs-12 padding_zero upload">
+
+                  <div class="profile_pic">
+                    <img id="upload_image" src="images/profile_pic.png" alt="your image" />
+                  </div><!-- profile pic -->
+
+               <div class="fileUpload btn btn-primary">
+                  <span>UPLOAD</span>
+                  <input type="file" class="upload" onchange="readURL(this);"  />
+              </div>
+
+            </div>
+            <div class="clearfix"></div>
+             <button type="submit" class="btn btn-default update">UPDATE</button>
+
+             <div class="clearfix"></div>
+	        </form>
+          <div id="social_wrapper">
+            <div class="facebook  col-lg-2 padding_zero">
+              <div class="social_style">
+                  <img src="images/fb.png" alt="">Facebook registration
+              </div>
+ 
+              <div class="added_profile">
+                Pradeep1.tekale <a href="#"><img src="images/close.png" alt=""></a>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+
+            <div class="twitter  col-lg-2 padding_zero">
+                <div class="social_style">
+                <img src="images/twitter.png" alt="">Twitter registration  
+                </div>
+
+                <div class="added_profile">
+                Pradeeptekale <a href="#"><img src="images/close.png" alt=""></a>
+              </div>
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="linkedin  col-lg-2 padding_zero">
+                <div class="social_style">
+                <img src="images/Linked-in.png" alt="">Linked in registration
+                </div>
+
+                <div class="added_profile">
+                Pradeeptekale <a href="#"><img src="images/close.png" alt=""></a>
+              </div>
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="google  col-lg-2 padding_zero">
+              <div class="social_style">
+              <img src="images/Google.png" alt="">Google + registration
+              </div>
+
+              <div class="added_profile">
+                tekalepradeep<a href="#"><img src="images/close.png" alt=""></a>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            
+          </div><!-- social_wrapper -->
+          
+	    </div>
+	</div>   
+	</div>
+</div><!-- login_wrapper -->
 
 
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <script>
+
+      document.getElementById("uploadBtn").onchange = function () {
+            document.getElementById("uploadFile").value = this.value;
+        };
+
+      function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#upload_image')
+                        .attr('src', e.target.result)
+                        .width(40)
+                        .height(40);
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+      
+    </script>
+  </body>
+</html>

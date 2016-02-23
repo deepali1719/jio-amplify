@@ -80,23 +80,28 @@
 	background-color:#f7f7f7;
 }
 
-#login_wrapper	h3{
-		margin: 25px;
+.form_style	h3{
+	margin: 25px;
+    color: #2e2e33;
+    font-size: 42px;
 	}
 
 #login_wrapper	h4{
 		margin-bottom: 22px;
 	}
-#login_wrapper .navbar-form{
+.form_style .navbar-form{
 	border:1px solid #ccc;
 	padding:20px;
-	width: 25%;
     margin: 0 auto;
     text-align: center;
     background: #fff;
 }
 
-#login_wrapper .navbar-form .form-group {
+#login_wrapper .navbar-form{	
+	width: 25%;
+}
+
+.form_style .navbar-form .form-group {
     width: 90%;
 }
 
@@ -112,13 +117,14 @@
    }
 	
 
-#login_wrapper	input{
+.form_style	input{
 		border:0px;
 		border-bottom:2px solid #ddd;
 		box-shadow:none;
 		border-radius:0px;
 		width: 100%;
 		margin-bottom: 13px;
+		margin-right: 10px;
 	}
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
