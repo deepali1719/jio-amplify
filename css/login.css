@@ -131,6 +131,11 @@
 	border: none
 }
 
+.footer_bg{
+	position: fixed;
+    bottom: 0px;
+}
+
 
 @media (max-width: 1239px){
 .inner_container{

@@ -4,9 +4,110 @@
 	border-bottom: 1px solid #ccc;
 	font-size: 18px;
 	color: #2e2e33;
+	margin-bottom: 5px;
 }
 .showmore {
 	min-height: 350px;
+}
+
+.social_wrapper ul li{
+	list-style: none;
+	float: left;
+	width: 25%;
+	padding: 4px 0px;
+}
+
+.social_wrapper ul {
+	padding-left: 0px;
+	    margin: 0px;
+}
+
+.post_content{
+	background: url("../images/black_bg.png") repeat-x;
+	position: relative;
+}
+
+.post_text{
+	position: absolute;
+    bottom: 0px;
+    color: #fff;
+    text-align: left;
+    padding: 0px 10px;
+    background: url("../images/black_bg.png") repeat-x left bottom;
+    padding-top: 30px;
+    width: 100%
+}
+
+.post_content img{
+	width: 100%
+}
+
+.social_wrapper .post_content img{
+	width: 100%;
+}
+
+.social_wrapper .social.facebook{
+	background: #6179ab;
+}
+
+.social_wrapper .social.twitter{
+	background: #00abf0;
+}
+
+.social_wrapper .social.linkedin{
+	background: #0072b5;
+}
+
+.social_wrapper .social.google-plus{
+	background: #de4939;
+}
+
+
+.social_wrapper .social span{
+	display: block;
+	color: #fff;   
+	 margin-top: 1px;
+}
+
+#post_list .lazy{
+	padding: 5px;
+}
+
+.post_text img{
+	width: auto;
+}
+
+.dashboard .post_text p{
+	margin-bottom: 0px
+}
+
+.time{
+	margin-bottom: 10px;
+}
+.time span
+{
+	padding-left: 10px;
+}
+
+#graph_wrapper{
+	background: #fff;
+    padding: 30px 0px;
+    border: 1px solid #d7d7d9;
+    margin-bottom: 10px;
+}
+
+.graph_header{
+	width: 30%;
+    margin: 0 auto;
+}
+
+.footer_text{
+	border-top: 1px solid #d7d7d9;
+    border-bottom: 1px solid #d7d7d9;
+    margin-top: 35px;
+    margin-bottom: 45px;
+    padding: 10px 0px;
+    text-align: center;
 }
 
 @media only screen and (min-device-width : 767px) and (max-device-width : 1024px)
