@@ -148,7 +148,7 @@
 
 
               <div id="showmore1">
-                <div class="row showmore">
+                <div class="row showrow">
 
                   <div class="lazy col-lg-3">
                     <img src="images/img-1.jpg" alt="">
@@ -171,7 +171,7 @@
                   </div>
                 </div>
 
-                <div class="row showmore">
+                <div class="row showrow">
 
                   <div class="lazy col-lg-3">
                     <img src="images/img-1.jpg" alt="">
@@ -195,7 +195,7 @@
                 </div>
 
 
-                <div class="row showmore">
+                <div class="row showrow">
 
                   <div class="col-lg-3">
                     <img src="images/img-1.jpg" alt="">
@@ -243,7 +243,7 @@
             var showmorepos = $('#showmore1').offset();
             var showmoreht = $('#showmore1').height();
             var showmorebot = (showmorepos.top + showmoreht);
-            if((scrollpos + (winht - 200)) >= showmorebot) {
+            if((scrollpos + (winht + 200)) >= showmorebot) {
               var showcur = ($('#showmore1 div.showrow.anim' + (showi+1)));
               $(showcur).show().find('.shop-grid').animate({margin: "4" }, 500, function() {   });
               $(showcur).find(".top-right-icon").animate({margin: "4" }, 500, function() {   });

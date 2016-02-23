@@ -5,7 +5,9 @@
 	font-size: 18px;
 	color: #2e2e33;
 }
-
+.showmore {
+	min-height: 350px;
+}
 
 @media only screen and (min-device-width : 767px) and (max-device-width : 1024px)
 {
