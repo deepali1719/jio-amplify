@@ -1,0 +1,29 @@
+#post_wrapper .post_header{
+	line-height: 54px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	font-size: 18px;
+	color: #2e2e33;
+}
+
+
+@media only screen and (min-device-width : 767px) and (max-device-width : 1024px)
+{
+
+
+}
+
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { 
+    
+
+}
+
+
+@media (max-width: 767px)
+{
+
+	
+	
+}

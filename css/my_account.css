@@ -1,0 +1,183 @@
+#account_wrapper .navbar-form,
+#social_wrapper
+{
+	width:82%;
+	margin: 0 auto;
+}
+
+#account_wrapper .navbar-form .btn.update{
+	background-color: #50b6bf;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px 35px;
+    margin-top: 25px;
+}
+
+#social_wrapper .social_style{
+	font-family: 'Helveticaneuebold';
+    font-size: 15px;
+    color: #fff;
+    padding: 15px 0px;
+}
+
+#social_wrapper .facebook,
+#social_wrapper .twitter,
+#social_wrapper .linkedin,
+#social_wrapper .google
+{
+	  width: 24.5%;
+	  margin-right: 6px;
+	  color: #fff;
+	  font-family: 'Helveticaneuebold';
+}
+
+#social_wrapper .social_style img{
+	margin-right: 10px;
+}
+
+#social_wrapper .facebook{
+	background-color: #3b5998;
+}
+
+#social_wrapper .twitter{
+	background-color: #00abf0;	
+}
+
+#social_wrapper .linkedin{
+	background-color: #0072b5;
+}
+
+#social_wrapper .google{
+	background-color: #de4939;
+}
+#social_wrapper{
+	margin-top: 8px
+}
+
+#account_wrapper.form_style input
+{
+	width: 47%!important;
+}
+
+#social_wrapper .google{
+margin-right: 0px
+}
+
+.added_profile{
+	padding: 15px 23px;
+    border-top: 1px solid #fff;
+    text-align: left;
+}
+
+.added_profile a{
+	float: right;
+}
+
+.profile_pic{
+	background: #ddd;
+    padding: 27px;
+    border-radius: 50%;
+    width: 100px;
+    margin-left: 43px;
+    margin-bottom: 3px;
+}
+
+.profile_pic img
+{
+	width: 40px;
+    height: 40px;
+}
+
+#account_wrapper .fileUpload {
+    position: relative;
+    overflow: hidden;
+    /* margin: 10px; */
+    background: none;
+    border: 0px;
+    color: #51b7c0;
+    font-size: 16px;
+    text-align: left;
+    float: left;
+    margin-left: 54px;
+    font-family: 'Helveticaneuebold';
+    font-size: 14px;
+
+}
+#account_wrapper .fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: 100% !important;
+}
+
+
+
+
+
+
+@media only screen and (min-device-width : 767px) and (max-device-width : 1024px)
+{
+
+	#social_wrapper .facebook, #social_wrapper .twitter, #social_wrapper .linkedin, #social_wrapper .google {
+    width: 49%;
+    float: left;
+    margin-bottom: 10px;
+	}
+
+}
+
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+    
+    #social_wrapper .facebook, #social_wrapper .twitter, #social_wrapper .linkedin, #social_wrapper .google {
+    width: 24.4%;
+    float: left;
+    margin-bottom: 10px;
+    }
+
+}
+
+
+@media (max-width: 767px)
+{
+
+	#account_wrapper.form_style input {
+    width: 100% !important;
+	}
+
+	.profile_pic {
+    padding: 11px;
+    border-radius: 50%;
+    width: 63px;
+    margin-left: 0px
+	}
+
+	#account_wrapper .fileUpload{
+		margin:0px;
+		padding: 0px;
+		font-size: 11px;
+		margin-left: 10px
+	}
+
+	#account_wrapper .navbar-form .btn.update {
+    border-radius: 9px;
+    padding: 7px 18px; 
+    float: left;
+	}
+
+	#social_wrapper .facebook, #social_wrapper .twitter, #social_wrapper .linkedin, #social_wrapper .google {
+    width: 100%;
+    margin-bottom: 10px
+	}
+	
+}
